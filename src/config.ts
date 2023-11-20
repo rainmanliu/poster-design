@@ -8,8 +8,10 @@ export default {
   isDev,
   BASE_URL: isDev ? '/' : './',
   VERSION: version,
-  APP_NAME: '迅排设计',
-  COPYRIGHT: 'ShawnPhang - Palxp.cn',
+  APP_NAME: 'Codesign',
+  // COPYRIGHT: 'ShawnPhang - Palxp.cn',
+  COPYRIGHT: 'Rainmanliu',
+
   // API_URL: isDev ? 'http://localhost:9998' : '${API}',
   API_URL: 'https://palxp.cn:8887', // 服务端地址
   SCREEN_URL: isDev ? 'http://localhost:7001' : '#{SCREEN_URL}', // 截图服务地址
